@@ -1,2 +1,2 @@
 # safe-block-explorer
-SAFE Block Explorer
+block explorer for SAFE
