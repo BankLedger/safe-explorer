@@ -1,7 +1,7 @@
 Bitcore Node Safe
 ============
 
-A Safe full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Safe Core v7.2.x](https://github.com/gordon87github/bitcore-safe) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A Safe full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Safe Core v7.2.x](https://github.com/gordon87github/safe-block-explorer) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
 ## Install
 
@@ -67,7 +67,7 @@ npm install npm
 git clone https://github.com/zeromq/libzmq
 
 
-rely on£º
+rely onÂ£Âº
 - sudo apt-get install libtool
 - sudo apt-get install autoconf
 - sudo apt-get install pkg-config
