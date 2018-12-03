@@ -6,7 +6,7 @@ A Safe full node for building applications and services with Node.js. A node is 
 ## Install
 
 ```bash
-npm install -g bitcore-node-safe
+npm install bitcore-safe
 ```
 
 ## Prerequisites
