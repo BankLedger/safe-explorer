@@ -6,7 +6,7 @@ A Safe full node for building applications and services with Node.js. A node is 
 ## Install
 
 ```bash
-npm install -g bitcore-node-safe
+npm install bitcore-safe
 ```
 
 ## Prerequisites
@@ -67,7 +67,7 @@ npm install npm
 git clone https://github.com/zeromq/libzmq
 
 
-rely on£º
+rely onÂ£Âº
 - sudo apt-get install libtool
 - sudo apt-get install autoconf
 - sudo apt-get install pkg-config
