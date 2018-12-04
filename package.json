@@ -1,13 +1,12 @@
 {
-  "name": "bitcore-dash",
-  "version": "4.1.3",
-  "description": "A platform to build Dash and blockchain-based applications.",
-  "author": "Dash Core Group <dev@dash.org>",
-  "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha test/** --recursive",
-    "build-deb": "./scripts/build-deb"
+  "name": "bitcore-safe",
+  "version": "7.3.1",
+  "description": "A platform to build Safe and blockchain-based applications.",
+  "author": {
+    "name": "Safe Core Group",
+    "email": "dev@safe.org"
   },
+  "main": "index.js",
   "bin": {
     "bitcore": "./bin/bitcore",
     "bitcored": "./bin/bitcored"
@@ -59,7 +58,7 @@
     }
   ],
   "keywords": [
-    "dash",
+    "safe",
     "transaction",
     "address",
     "p2p",
@@ -76,20 +75,54 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashevo/bitcore-dash.git"
+    "url": "git+https://github.com/safeevo/bitcore-safe.git"
   },
   "browser": {
     "request": "browser-request"
   },
   "dependencies": {
-    "bitcore-lib-dash": "^0.13.20",
-    "bitcore-node-dash": "~3.0.4",
-    "insight-api-dash": "^0.4.5",
-    "insight-ui-dash": "^0.4.3"
+    "bitcore-lib-safe": "^4.1.0",
+    "bitcore-node-safe": "^4.5.0",
+    "insight-api-safe": "^5.2.0",
+    "insight-ui-safe": "^5.2.0"
   },
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.3.0",
     "mocha": "^2.3.3"
-  }
+  },
+  "gitHead": "f7f2d3f6bf3ffc5d59781a17d836376e4f9e93ed",
+  "bugs": {
+    "url": "https://github.com/safeevo/bitcore-safe/issues"
+  },
+  "homepage": "https://github.com/safeevo/bitcore-safe#readme",
+  "_id": "bitcore-safe@7.3.1",
+  "_npmVersion": "5.5.1",
+  "_nodeVersion": "8.9.3",
+  "_npmUser": {
+    "name": "allwhitetofly",
+    "email": "1010412158@qq.com"
+  },
+  "dist": {
+    "integrity": "sha512-rj1X2iHxxxvQTa8l6n0tgE/Isn4uGsDT9gPJfY1z8CxLkCTB6+Jftv4NDkOah84pCl3jHNSG9dQff8lW/t87KA==",
+    "shasum": "d42eed2335af31d2fb83ddd27a1ea8c55c636523",
+    "tarball": "https://registry.npmjs.org/bitcore-safe/-/bitcore-safe-7.3.1.tgz",
+    "fileCount": 14,
+    "unpackedSize": 26006,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbVUbFCRA9TVsSAnZWagAA7+cQAJlFjpyfPKZ7t9lRBe4H\njyyA1316kEWB7q5ktXbP1JI2f+ekTow3NRLXsl7M17sq8eENac2uLkRyzQDy\nzDMnvCA8Zm2qTQs1CqXynTVCm3YyR3UDwtO/kN5aVsTAn7yAGmdzLU1rcFJr\nhlTLsUgHaTrMFBlqwFUZ9jENXYk1ndM0oN3uG9npCjBqS3I6z1gtB6QmEYOa\nUW04NhsDLDkK9nquAxGUBJgg/s3M3YOcLoJvVY/272yq+/DvfjvIigr4ZFg4\n3yqKjH1Ggzv8zTmhRleoVKrIhPMCit9kfwGYcrv7p8wf0OFoj+g8x4s0JDda\nAf0IhD9PGIIwYNnYMtXglPhKcB8wHaH3ZKFdQSGNmUHkTvLoFNCGUnnuoGng\nuW4lWD1v7+kO2De1kgiRy/bpgXP9yI8D3bjMEGabNc+nSW35iTjy6HSxamuT\n5wrhXmuNuDZrhzcXwfsa6Vudu6Bu33DzFIlu/CqMfT+ub21lZ3uqjPhfyQ39\npw259MiTk6c1p43HMQEHJ3zgwhHsuJ7HM2WpAif5U4PSHFCL7RedETJLhH8u\nMhEyDqsUxnGkZp9Y+CWugen5b2kiJHkznbJMf/TuNKdGQvRGzX/T+XZc0FUh\nrCR9+DJT+0vo5RUhKXIcIMMcDT+8AIZuHjoKbS98DNmpmXkEXghzPT0ngDm4\nW93y\r\n=QRhS\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "maintainers": [
+    {
+      "name": "allwhitetofly",
+      "email": "1010412158@qq.com"
+    }
+  ],
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bitcore-safe_7.3.1_1532315333812_0.9365992542020638"
+  },
+  "_shasum": "e7a7dedddf3e0eb8801179eeacdf21d141539bde",
+  "_resolved": "https://registry.npmjs.org/bitcore-safe/-/bitcore-safe-7.3.1.tgz",
+  "_from": "bitcore-safe@latest"
 }
