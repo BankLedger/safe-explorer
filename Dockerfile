@@ -1,4 +1,5 @@
 # setup a centos image with bitcore binary components
+# spos
 FROM centos:latest
 MAINTAINER Chris Kleeschulte <chrisk@bitpay.com>
 RUN yum -y install git curl which xz tar findutils

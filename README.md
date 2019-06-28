@@ -1,4 +1,4 @@
-Bitcore Node Safe
+SafeCore Node Safe
 ============
 
 A Safe full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Safe Core v7.2.x](https://github.com/gordon87github/safe-block-explorer) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
@@ -85,3 +85,5 @@ Execute a command
 - sudo apt-get install libminiupnpc-dev
 - sudo apt-get install libevent-dev
 
+
+## prinstall of zmq

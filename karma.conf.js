@@ -1,6 +1,6 @@
 'use strict';
 
-// karma.conf.js
+// karma.conf.js  spos version
 module.exports = function(config) {
 
   config.set({
